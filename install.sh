@@ -8,14 +8,12 @@ read -p "Preparada?!: S ou N: " yn
 case $yn in
     [Ss]* ) 
             echo "La vai!!"
-            clear
             mkdir -p ~/Documents/emulador/jogos/
             cp -rfv roms/* ~/Documents/emulador/jogos/
             sudo add-apt-repository -y ppa:random-stuff/ppa
             sudo apt-get update
             sudo apt-get install -y snes9x
             clear
-            sleep 5;
             echo "So mais um minutinho.."
             sleep 2;
             echo "Quase acabando..."
