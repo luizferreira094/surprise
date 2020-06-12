@@ -21,7 +21,9 @@ case $yn in
             echo "PRONTO!!"
             sleep 2;
             echo "Acabei de instalar um emulador de Super Nintendo na sua maquina <3 ... para rodar, basta escrever no terminal:"
+            sleep 1;
             echo "snes9x pasta/jogo"
+            sleep 2;
             echo "Ou então, na pesquisa escreve snes que vc vai ver o emulador e é so configurar e jogar <3 ..."
             sleep 10;
             echo "Ahhh e eu ja deixei baixado TODOS OS SUPER MARIO HHAHAHAHAH! GO CRAZY ... Qualquer novo jogo que vc queira adicionar basta adicionar na pasta ~/Documents/emulador/jogos/"
